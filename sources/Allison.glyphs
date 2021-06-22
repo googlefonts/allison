@@ -1,11 +1,11 @@
 {
 .appVersion = "1342";
 DisplayStrings = (
-"/dieresiscomb/dotaccentcomb/gravecomb/acutecomb/hungarumlaut/hungarumlautcomb/uhungarumlaut/caroncomb.alt/circumflexcomb/caroncomb/brevecomb/ringcomb/tildecomb/macroncomb/hookabovecomb/dblgravecomb/breveinvertedcomb/commaturnedabovecomb/horncomb/dotbelowcomb/dieresisbelowcomb/commaaccentcomb/cedillacomb/ogonekcomb/brevebelowcomb/macronbelowcomb/strokeshortcomb",
-"nnnnn\012ooooo\012nn/Placeholder no/Placeholder oo\012abcdefghijklmnoó/obreve ô/ocircumflexacute/ocircumflexdotbelow/ocircumflexgrave/ocircumflexhookabove/ocircumflextilde/odblgrave/odieresismacron/odotaccentmacron/odotbelow/ohookabove/oinvertedbreve/omacron/oogonek õ/otildemacron/numero \012pqrstuvwxyoz",
-"/dieresiscomb",
+"/DZcaron p/dieresiscomb/dotaccentcomb/gravecomb/acutecomb/hungarumlaut/hungarumlautcomb/uhungarumlaut/caroncomb.alt/circumflexcomb/caroncomb/brevecomb/ringcomb/tildecomb/macroncomb/hookabovecomb/dblgravecomb/breveinvertedcomb/commaturnedabovecomb/horncomb/dotbelowcomb/dieresisbelowcomb/commaaccentcomb/cedillacomb/ogonekcomb/brevebelowcomb/macronbelowcomb/strokeshortcomb",
+"nnnnn\012ooooo\012nn/Placeholder no/Placeholder oo\012abcdefghijklmnoó/obreve ô/ocircumflexacute/ocircumflexdotbelow/ocircumflexgrave/ocircumflexhookabove/ocircumflextilde/odblgrave/odieresismacron/odotaccentmacron/odotbelow/ohookabove/oinvertedbreve/omacron/oogonek õ/otildemacron/numero \012pqrstuvwxyoz/dzcaron",
 "¨/dotaccent `´/hungarumlaut/circumflex/caron/breve/ring/tilde ¯¸/ogonek",
-"hf/space/f_f/space/f_f_i/space/f_f_l/space/fi/space/fl \012hf/space ff/space ffi/space ffl/space fi/space fl"
+"hf/space/f_f/space/f_f_i/space/f_f_l/space/fi/space/fl \012hf/space ff/space ffi/space ffl/space fi/space fl",
+"ABCDFEGHIJKLMNO\012PQRSTUVWXYZ"
 );
 copyright = "Copyright 2020 The Allison Project Authors (https://github.com/googlefonts/allison)";
 customParameters = (
@@ -136,14 +136,14 @@ name = liga;
 fontMaster = (
 {
 alignmentZones = (
-"{826, 16}",
 "{624, 16}",
-"{220, 16}",
-"{0, -15}",
-"{-402, -16}"
+"{520, 16}",
+"{220, 10}",
+"{0, -10}",
+"{-380, -16}"
 );
-ascender = 826;
-capHeight = 624;
+ascender = 520;
+capHeight = 630;
 customParameters = (
 {
 name = typoAscender;
@@ -182,7 +182,7 @@ name = strikeoutSize;
 value = 50;
 }
 );
-descender = -402;
+descender = -380;
 guideLines = (
 {
 locked = 1;
@@ -201,6 +201,9 @@ position = "{300, 220}";
 },
 {
 position = "{79, 0}";
+},
+{
+position = "{594, 640}";
 }
 );
 id = "979483E7-D034-4361-86D9-396A77A90835";
@@ -1859,7 +1862,7 @@ unicode = 0020;
 },
 {
 glyphname = A;
-lastChange = "2021-06-10 05:07:38 +0000";
+lastChange = "2021-06-22 19:50:49 +0000";
 layers = (
 {
 anchors = (
@@ -29711,7 +29714,7 @@ unicode = 1EF9;
 },
 {
 glyphname = z;
-lastChange = "2021-06-22 16:31:04 +0000";
+lastChange = "2021-06-22 19:54:08 +0000";
 layers = (
 {
 anchors = (
@@ -29726,6 +29729,11 @@ position = "{177, 185}";
 {
 name = top;
 position = "{185, 321}";
+}
+);
+guideLines = (
+{
+position = "{77, -393}";
 }
 );
 layerId = "979483E7-D034-4361-86D9-396A77A90835";
@@ -43299,7 +43307,7 @@ unicode = 0326;
 {
 color = 9;
 glyphname = cedillacomb;
-lastChange = "2021-06-22 16:05:54 +0000";
+lastChange = "2021-06-22 19:46:09 +0000";
 layers = (
 {
 anchors = (
@@ -44190,16 +44198,7 @@ note = DC4;
 );
 instances = (
 {
-customParameters = (
-{
-name = postscriptFullName;
-value = "Allison Regular";
-},
-{
-name = postscriptFontName;
-value = "Allison-Regular";
-}
-);
+interpolationWeight = 400;
 instanceInterpolations = {
 "979483E7-D034-4361-86D9-396A77A90835" = 1;
 };
