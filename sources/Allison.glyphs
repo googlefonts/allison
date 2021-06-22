@@ -133,8 +133,15 @@ name = liga;
 );
 fontMaster = (
 {
-ascender = 826;
-capHeight = 624;
+alignmentZones = (
+"{624, 16}",
+"{520, 16}",
+"{220, 10}",
+"{0, 20}",
+"{-380, -16}"
+);
+ascender = 520;
+capHeight = 630;
 customParameters = (
 {
 name = typoAscender;
@@ -173,7 +180,7 @@ name = strikeoutSize;
 value = 50;
 }
 );
-descender = -402;
+descender = -380;
 guideLines = (
 {
 locked = 1;
