@@ -2,7 +2,7 @@
 .appVersion = "1342";
 DisplayStrings = (
 murcielagon,
-"/hungarumlautcomb",
+"nnnnn\012ooooo\012nn/Placeholder no/Placeholder oo\012abcdefghijklmnoó/obreve ô/ocircumflexacute/ocircumflexdotbelow/ocircumflexgrave/ocircumflexhookabove/ocircumflextilde/odblgrave/odieresismacron/odotaccentmacron/odotbelow/ohookabove/oinvertedbreve/omacron/oogonek õ/otildemacron/numero \012pqrstuvwxyoz/dzcaron",
 "/gravecomb",
 "A/Abreveacute pç/scommaaccent z"
 );
@@ -1856,6 +1856,17 @@ width = 175;
 );
 note = space;
 unicode = 0020;
+},
+{
+glyphname = nbspace;
+layers = (
+{
+layerId = "979483E7-D034-4361-86D9-396A77A90835";
+width = 175;
+}
+);
+widthMetricsKey = space;
+unicode = 00A0;
 },
 {
 glyphname = A;
@@ -44111,105 +44122,6 @@ layerId = "979483E7-D034-4361-86D9-396A77A90835";
 width = 197;
 }
 );
-},
-{
-glyphname = US;
-lastChange = "2021-06-22 20:03:35 +0000";
-layers = (
-{
-layerId = "979483E7-D034-4361-86D9-396A77A90835";
-width = 175;
-}
-);
-note = US;
-},
-{
-glyphname = RS;
-lastChange = "2021-06-22 20:03:35 +0000";
-layers = (
-{
-layerId = "979483E7-D034-4361-86D9-396A77A90835";
-width = 0;
-}
-);
-note = RS;
-},
-{
-glyphname = HT;
-lastChange = "2021-06-22 20:03:35 +0000";
-layers = (
-{
-layerId = "979483E7-D034-4361-86D9-396A77A90835";
-width = 0;
-}
-);
-note = HT;
-},
-{
-glyphname = LF;
-lastChange = "2021-06-22 20:03:35 +0000";
-layers = (
-{
-layerId = "979483E7-D034-4361-86D9-396A77A90835";
-width = 0;
-}
-);
-note = LF;
-},
-{
-glyphname = DLE;
-lastChange = "2021-06-22 20:03:35 +0000";
-layers = (
-{
-layerId = "979483E7-D034-4361-86D9-396A77A90835";
-width = 0;
-}
-);
-note = DLE;
-},
-{
-glyphname = DC1;
-lastChange = "2021-06-22 20:03:35 +0000";
-layers = (
-{
-layerId = "979483E7-D034-4361-86D9-396A77A90835";
-width = 0;
-}
-);
-note = DC1;
-},
-{
-glyphname = DC2;
-lastChange = "2021-06-22 20:03:35 +0000";
-layers = (
-{
-layerId = "979483E7-D034-4361-86D9-396A77A90835";
-width = 0;
-}
-);
-note = DC2;
-},
-{
-glyphname = DC3;
-lastChange = "2021-06-22 20:03:35 +0000";
-layers = (
-{
-layerId = "979483E7-D034-4361-86D9-396A77A90835";
-width = 0;
-}
-);
-note = DC3;
-},
-{
-glyphname = DC4;
-lastChange = "2021-06-22 20:03:35 +0000";
-layers = (
-{
-layerId = "979483E7-D034-4361-86D9-396A77A90835";
-width = 0;
-}
-);
-note = DC4;
 }
 );
 instances = (
