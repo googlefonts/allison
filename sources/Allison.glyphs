@@ -44195,16 +44195,7 @@ note = DC4;
 );
 instances = (
 {
-customParameters = (
-{
-name = postscriptFullName;
-value = "Allison Regular";
-},
-{
-name = postscriptFontName;
-value = "Allison-Regular";
-}
-);
+interpolationWeight = 400;
 instanceInterpolations = {
 "979483E7-D034-4361-86D9-396A77A90835" = 1;
 };
