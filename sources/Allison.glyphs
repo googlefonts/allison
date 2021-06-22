@@ -3,7 +3,8 @@
 DisplayStrings = (
 murcielagon,
 "/hungarumlautcomb",
-"/gravecomb"
+"/gravecomb",
+"A/Abreveacute pç/scommaaccent z"
 );
 copyright = "Copyright 2020 The Allison Project Authors (https://github.com/googlefonts/allison)";
 customParameters = (
@@ -145,31 +146,35 @@ capHeight = 630;
 customParameters = (
 {
 name = typoAscender;
-value = 826;
+value = 890;
 },
 {
 name = typoDescender;
-value = -402;
+value = -380;
 },
 {
 name = typoLineGap;
 value = 0;
 },
 {
-name = winAscent;
-value = 826;
-},
-{
-name = winDescent;
-value = 402;
-},
-{
 name = hheaAscender;
-value = 826;
+value = 890;
 },
 {
 name = hheaDescender;
-value = -402;
+value = -380;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 960;
+},
+{
+name = winDescent;
+value = -395;
 },
 {
 name = strikeoutPosition;
@@ -2093,16 +2098,23 @@ unicode = 0102;
 {
 color = 11;
 glyphname = Abreveacute;
-lastChange = "2021-06-22 20:04:11 +0000";
+lastChange = "2021-06-22 20:13:50 +0000";
 layers = (
 {
 components = (
 {
+alignment = -1;
 name = A;
 },
 {
+alignment = -1;
 name = brevecomb_acutecomb;
-transform = "{1, 0, 0, 1, 877, 383}";
+transform = "{1, 0, 0, 1, 877, 505}";
+}
+);
+guideLines = (
+{
+position = "{396, 890}";
 }
 );
 layerId = "979483E7-D034-4361-86D9-396A77A90835";
