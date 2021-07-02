@@ -1,5 +1,5 @@
 {
-.appVersion = "1356";
+.appVersion = "1342";
 DisplayStrings = (
 "ø/fl",
 "ph/circumflexcomb_hookabovecomb/acircumflexhookabove m",
@@ -24,7 +24,11 @@ DisplayStrings = (
 "/caroncomb/gcaron",
 jc,
 "Sakakamaki/space Laito/space Trainer/space Longer\012Ryong/space Latin/space Just/space been/space Averta\012Lingering/space Just/space because/space we're/space going/space some/space time/space later,/space Just/space rather/space your/space",
-"D/strokeshortcomb/strokeshortcomb/dcroat DÐ/Dcroat"
+"D/strokeshortcomb/strokeshortcomb G,/commaaccentcomb/Gcommaaccent/Kcommaaccent/Lcommaaccent/Ncommaaccent/Rcommaaccent/Scommaaccent/Tcommaaccent/kcommaaccent/lcommaaccent/ncommaaccent/rcommaaccent/scommaaccent/tcommaaccent/Gcommaaccent/dcroat DÐ/Dcroat",
+"µ",
+"-n-n­o­",
+"/dieresiscomb/dotaccentcomb/gravecomb/acutecomb/hungarumlautcomb/caroncomb.alt/circumflexcomb/caroncomb/brevecomb/ringcomb/tildecomb/macroncomb/hookabovecomb/dblgravecomb/brevecomb/breveinvertedcomb/commaturnedabovecomb/horncomb/dotbelowcomb/dieresisbelowcomb/commaaccentcomb/cedillacomb/ogonekcomb/brevebelowcomb/macronbelowcomb/strokeshortcomb/dieresiscomb.case/dotaccentcomb.case/gravecomb.case/acutecomb.case/hungarumlautcomb.case/circumflexcomb.case/caroncomb.case/brevecomb.case/ringcomb.case/tildecomb.case/macroncomb.case/hookabovecomb.case/horncomb.case",
+"´/hungarumlautcomb.case/Ohungarumlaut Ö/Uhungarumlaut"
 );
 classes = (
 {
@@ -119,7 +123,7 @@ name = ccmp;
 },
 {
 automatic = 1;
-code = "lookup locl_latn_0 {\012	script latn;\012	language AZE;\012	sub i by idotaccent;\012	language CRT;\012	sub i by idotaccent;\012	language KAZ;\012	sub i by idotaccent;\012	language TAT;\012	sub i by idotaccent;\012	language TRK;\012	sub i by idotaccent;\012} locl_latn_0;\012\012lookup locl_latn_1 {\012	script latn;\012	language ROM;\012	sub Scedilla by Scommaaccent;\012	sub scedilla by scommaaccent;\012	sub Tcedilla by Tcommaaccent;\012	sub tcedilla by tcommaaccent;\012	language MOL;\012	sub Scedilla by Scommaaccent;\012	sub scedilla by scommaaccent;\012	sub Tcedilla by Tcommaaccent;\012	sub tcedilla by tcommaaccent;\012} locl_latn_1;\012\012lookup locl_latn_2 {\012	script latn;\012	language CAT;\012	sub l periodcentered' l by periodcentered.loclCAT;\012	sub L periodcentered' L by periodcentered.loclCAT;\012} locl_latn_2;\012";
+code = "lookup locl_latn_0 {\012	script latn;\012	language AZE;\012	language CRT;\012	language KAZ;\012	language TAT;\012	language TRK;\012	sub i by idotaccent;\012} locl_latn_0;\012\012lookup locl_latn_1 {\012	script latn;\012	language ROM;\012	language MOL;\012	sub Scedilla by Scommaaccent;\012	sub scedilla by scommaaccent;\012	sub Tcedilla by Tcommaaccent;\012	sub tcedilla by tcommaaccent;\012} locl_latn_1;\012\012lookup locl_latn_2 {\012	script latn;\012	language CAT;\012	sub l periodcentered' l by periodcentered.loclCAT;\012	sub L periodcentered' L by periodcentered.loclCAT;\012} locl_latn_2;\012";
 name = locl;
 },
 {
@@ -196,11 +200,11 @@ value = 0;
 },
 {
 name = winAscent;
-value = 960;
+value = 920;
 },
 {
 name = winDescent;
-value = -395;
+value = -396;
 },
 {
 name = strikeoutPosition;
@@ -25628,15 +25632,41 @@ unicode = 002D;
 },
 {
 glyphname = softhyphen;
+lastChange = "2021-07-02 13:06:26 +0000";
 layers = (
 {
-components = (
+layerId = "979483E7-D034-4361-86D9-396A77A90835";
+paths = (
 {
-name = hyphen;
+closed = 1;
+nodes = (
+"141 101 LINE SMOOTH",
+"162 102 OFFCURVE",
+"184 104 OFFCURVE",
+"189 105 CURVE SMOOTH",
+"194 106 OFFCURVE",
+"200 107 OFFCURVE",
+"201 112 CURVE",
+"196 115 OFFCURVE",
+"180 117 OFFCURVE",
+"161 118 CURVE SMOOTH",
+"138 120 OFFCURVE",
+"118 121 OFFCURVE",
+"102 121 CURVE SMOOTH",
+"85 121 OFFCURVE",
+"64 121 OFFCURVE",
+"57 116 CURVE SMOOTH",
+"53 114 OFFCURVE",
+"50 111 OFFCURVE",
+"50 109 CURVE",
+"51 106 LINE",
+"54 101 OFFCURVE",
+"61 99 OFFCURVE",
+"73 99 CURVE SMOOTH"
+);
 }
 );
-layerId = "979483E7-D034-4361-86D9-396A77A90835";
-width = 236;
+width = 251;
 }
 );
 unicode = 00AD;
@@ -33459,7 +33489,7 @@ unicode = 0324;
 },
 {
 glyphname = commaaccentcomb;
-lastChange = "2021-06-29 03:01:10 +0000";
+lastChange = "2021-07-02 12:09:29 +0000";
 layers = (
 {
 anchors = (
@@ -33469,16 +33499,53 @@ position = "{72, 0}";
 },
 {
 name = bottom;
-position = "{72, -175}";
-}
-);
-components = (
-{
-name = comma;
-transform = "{0.85, 0, 0, 0.85, -31, -118}";
+position = "{72, -155}";
 }
 );
 layerId = "979483E7-D034-4361-86D9-396A77A90835";
+paths = (
+{
+closed = 1;
+nodes = (
+"19 -142 OFFCURVE",
+"69 -84 OFFCURVE",
+"69 -66 CURVE SMOOTH",
+"68 -61 OFFCURVE",
+"66 -45 OFFCURVE",
+"62 -45 CURVE SMOOTH",
+"54 -45 OFFCURVE",
+"44 -48 OFFCURVE",
+"34 -50 CURVE SMOOTH",
+"30 -52 OFFCURVE",
+"30 -54 OFFCURVE",
+"29 -56 CURVE SMOOTH",
+"27 -61 OFFCURVE",
+"25 -69 OFFCURVE",
+"24 -76 CURVE SMOOTH",
+"23 -82 OFFCURVE",
+"23 -89 OFFCURVE",
+"23 -90 CURVE SMOOTH",
+"23 -94 OFFCURVE",
+"24 -95 OFFCURVE",
+"27 -95 CURVE SMOOTH",
+"28 -95 OFFCURVE",
+"31 -95 OFFCURVE",
+"32 -95 CURVE",
+"29 -102 OFFCURVE",
+"26 -110 OFFCURVE",
+"17 -123 CURVE SMOOTH",
+"8 -136 OFFCURVE",
+"1 -147 OFFCURVE",
+"0 -148 CURVE",
+"-1 -149 OFFCURVE",
+"-1 -150 OFFCURVE",
+"-1 -151 CURVE SMOOTH",
+"-1 -153 OFFCURVE",
+"1 -154 OFFCURVE",
+"5 -153 CURVE"
+);
+}
+);
 width = 69;
 }
 );
@@ -34182,7 +34249,7 @@ note = acutecomb;
 {
 color = 9;
 glyphname = hungarumlautcomb.case;
-lastChange = "2021-06-29 03:19:18 +0000";
+lastChange = "2021-07-02 13:18:20 +0000";
 layers = (
 {
 anchors = (
@@ -34200,11 +34267,6 @@ annotations = (
 angle = 180.81003;
 position = "{-8, 262}";
 type = Arrow;
-},
-{
-position = "{23, 206}";
-text = "Needs to be a bit more sloped";
-type = Text;
 },
 {
 position = "{93.375, 239.188}";
@@ -35424,5 +35486,5 @@ manufacturer = "Robert E. Leuschke";
 manufacturerURL = www.typesetit.com;
 unitsPerEm = 1000;
 versionMajor = 1;
-versionMinor = 4;
+versionMinor = 10;
 }
